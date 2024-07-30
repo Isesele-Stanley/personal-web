@@ -1,0 +1,138 @@
+.gradient-background {
+    background: linear-gradient(300deg, #61f2c6, #a2e9c3, #f4f2f2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.advance{
+    color: #064d38;
+    text-decoration: underline;
+}
+
+.skill {
+    color: rgb(102, 191, 191);
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+hr {
+    border: dotted rgb(102, 191, 191) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.stan {
+    border-radius: 50%;
+}
+
+
+
+.flex-container-resume{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.resume{
+    flex: 1;
+    
+}
+
+.resume > h3{
+    font-weight: bold;
+    color: rgb(102, 191, 191);
+}
+
+.resume > p{
+    font-size: 1.2rem;
+    margin-top: 45px;
+    text-align: justify;
+}
+
+.web-img{
+   flex: 1;
+   height: 400px;
+}
+
+.Prev > h3{
+    font-weight: bold;
+    color: rgb(102, 191, 191) ;
+    margin-bottom: 45px;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.birthday-img{
+    height: 200px;
+    border: solid rgb(102, 191, 191) 6px;
+    border-radius: 20%;
+    
+}
+
+.dog-img{
+    height: 200px;
+    border: solid rgb(102, 191, 191) 6px;
+    border-radius: 20%;
+}
+
+.flex-container-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+a:hover {
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px rgb(35, 100, 100);
+}
+
+.flex-container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-contact > h2 , .flex-container-contact > h3{
+    color: rgb(102, 191, 191);
+    font-weight: bold;
+}
+
+.flex-container-contact > p {
+    width: 30%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.flex-container-contact > a {
+    background-image: linear-gradient(300deg, #0a3237, #61f2c6, #a2e9c3);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.footer:hover {
+    color: white;
+    font-size: large;
+    box-shadow: none;
+}
+
+#the-rest {
+    font-family: Montserrat, sans-serif;
+}
